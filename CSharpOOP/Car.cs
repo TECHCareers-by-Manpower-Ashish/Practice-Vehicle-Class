@@ -18,7 +18,7 @@ namespace CSharpOOP
         A ToString() override that will output the format “A Blue Chevy Cruze with 60050KM on the odometer, that has enough fuel to travel 65KM.”
         Both a default and greedy constructor (initialize object references as a new instance).
     */
-    public class Car
+    public class Car : Vehicle
     {
         public string Make {get; set; }
         public string Model { get; set; }

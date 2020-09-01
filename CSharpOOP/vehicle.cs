@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CSharpOOP
 {
-    public abstract class Vehicle
+    public abstract class Vehicle : Car
     {
         public string Make { get; set; }
         public string Model { get; set; }

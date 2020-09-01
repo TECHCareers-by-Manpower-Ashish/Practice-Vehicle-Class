@@ -19,16 +19,7 @@ namespace CSharpOOP
             }
             private set
             {
-                /*
-                if (value > 999999)
-                {
-                    _counter = value % 1000000;
-                }
-                else
-                {
-                    _counter = value;
-                }
-                */
+               
 
                 _counter = value > 999999 ? value % 1000000 : value;
             }

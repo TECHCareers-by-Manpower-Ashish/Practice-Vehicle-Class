@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practice Vehicle Class\\CSharpOOP\\CSharpOOP.csproj",
-      "projectName": "CSharpOOP",
-      "projectPath": "D:\\Practice Vehicle Class\\CSharpOOP\\CSharpOOP.csproj",
+      "projectUniqueName": "D:\\Practice Vehicle Class\\CSharpOOP\\Vehicle Class.csproj",
+      "projectName": "Vehicle Class",
+      "projectPath": "D:\\Practice Vehicle Class\\CSharpOOP\\Vehicle Class.csproj",
       "packagesPath": "C:\\Users\\Pashi\\.nuget\\packages\\",
       "outputPath": "D:\\Practice Vehicle Class\\CSharpOOP\\obj\\",
       "projectStyle": "PackageReference",

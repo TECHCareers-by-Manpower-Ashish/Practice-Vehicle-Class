@@ -7,19 +7,12 @@ namespace CSharpOOP
     public class Airplane : Vehicle
     {
 
-        public DateTime Date { get; set; }
-        public DateTime Date
-        {
-            get;
-            set
-            {
-                Date = DateTime.Now;
-            }
-        }
+        public DateTime DateTime { get; set; }
+      
 
         public void StartEngine()
         {
-            Date = DateTime.Now;
+            
             if (StartEngine == on)
             {
                 throw new Exception("Engine is satart!");
@@ -29,11 +22,11 @@ namespace CSharpOOP
 
        public void StopEngine()
         {
-            Date = DateTime.Now;
+            
             if (StopEngine == off)
             {
                 {
-                    throw new Exception("Engine is satart!");
+                    throw new Exception("Engine is off!");
 
                 }
             }

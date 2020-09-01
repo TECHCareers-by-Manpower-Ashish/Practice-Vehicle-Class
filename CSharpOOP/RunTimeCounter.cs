@@ -8,7 +8,7 @@ namespace CSharpOOP
     public class RunTimeCounter
     {
 
-
+      
 
         private int _runtime;
         public int Runtime
